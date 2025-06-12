@@ -182,9 +182,9 @@ GameObject:
   - component: {fileID: 2043066480405472099}
   - component: {fileID: 377291013443947822}
   - component: {fileID: 5946976470611272585}
-  - component: {fileID: -4594322520430773935}
+  - component: {fileID: 3139944587859669932}
   m_Layer: 0
-  m_Name: Piano key
+  m_Name: Common Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -279,7 +279,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -4594322520430773935}
+      - m_Target: {fileID: 3139944587859669932}
         m_TargetAssemblyTypeName: PushKey, Assembly-CSharp
         m_MethodName: Push
         m_Mode: 1
@@ -294,7 +294,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -4594322520430773935}
+      - m_Target: {fileID: 3139944587859669932}
         m_TargetAssemblyTypeName: PushKey, Assembly-CSharp
         m_MethodName: Release
         m_Mode: 1
@@ -415,7 +415,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-4594322520430773935
+--- !u!114 &3139944587859669932
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

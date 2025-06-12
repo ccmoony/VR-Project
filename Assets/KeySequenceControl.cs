@@ -6,12 +6,15 @@ using UnityEngine;
 public class KeySequenceControl : MonoBehaviour
 {
     private bool activated = false;
-    public Renderer[] renderers;
+    private Dictionary<int, PianoKey> pianoKeys = new  Dictionary<int, PianoKey>();
     public int[] sequence;
     private int target = -1;
     private Color originalColor;
     public void Start(){
-        originalColor = renderers[0].material.GetColor("_Color");
+        var keys = GetComponentsInChildren<PianoKey>();
+        foreach (PianoKey key in keys)
+            pianoKeys.Add(key.key_id, key);
+        originalColor = pianoKeys[0].renderer.material.GetColor("_Color");
     }
     public void TurnOn(){
         if (activated){
@@ -38,9 +41,9 @@ public class KeySequenceControl : MonoBehaviour
         }
     }
     private void RevertTargetColor(){
-        renderers[sequence[target]].materials[0].color = originalColor;
+        pianoKeys[sequence[target]].renderer.materials[0].color = originalColor;
     }
     private void SetTargetColor(){
-        renderers[sequence[target]].materials[0].color = Color.blue;
+        pianoKeys[sequence[target]].renderer.materials[0].color = Color.blue;
     }
 }
