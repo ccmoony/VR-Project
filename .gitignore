@@ -8,3 +8,5 @@
 *.csproj
 *.sln
 *.userprefs
+.DS_Store
+*/**/.DS_Store
