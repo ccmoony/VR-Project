@@ -586,7 +586,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 370249690}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &960042498
+--- !u!1001 &504468045
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -594,13 +594,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6187896220949408382, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8134399426104077887, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.237
       objectReference: {fileID: 0}
     - target: {fileID: 8134399426104077887, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
       propertyPath: m_LocalPosition.y
@@ -643,7 +639,8 @@ PrefabInstance:
       value: piano_
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8611133456809582520, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
@@ -2968,4 +2965,4 @@ SceneRoots:
   - {fileID: 342673961}
   - {fileID: 1342166925}
   - {fileID: 973509385}
-  - {fileID: 960042498}
+  - {fileID: 504468045}
