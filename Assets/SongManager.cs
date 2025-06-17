@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-enum Note {
+public enum Note {
     C, Csharp, D,
     Dsharp, E, F,
     Fsharp, G, Gsharp,
-    A, Asharp,
+    A, Asharp, B
 }
 
 public class SongManager : MonoBehaviour {
@@ -52,14 +52,15 @@ public class SongManager : MonoBehaviour {
         ongoingSong = -1;
     }
 
-    void SelectSong(int index) {
+    public void SelectSong(int index) {
         if (index >= 0 && index < this.songs.Count) {
             this.ongoingSong = index;
             this.noteIndex = 0;
         }
     }
 
-    bool PlayNote(Note note) {
+    public bool PlayNote(Note note) {
+        Debug.Log(note);
         if (ongoingSong != -1) {
             // if there is an ongoing song
             var song = this.songs[ongoingSong];

@@ -8,6 +8,9 @@ public class PianoKey2 : PushKey
     [SerializeField]
     KeySequenceControl controller;
     
+    [SerializeField]
+    Note note;
+    
     public Renderer renderer;
 
     public int key_id;
@@ -21,6 +24,8 @@ public class PianoKey2 : PushKey
         base.Push();
         controller.Push(key_id);
         transform.localPosition = initialLocalPosition + new Vector3(0, 0, -pressDistance);
+
+        SongManager.instance.PlayNote(this.note);
     }
 
     public void Release(){
