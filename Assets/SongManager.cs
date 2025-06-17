@@ -26,8 +26,7 @@ public class SongManager : MonoBehaviour {
         var littlestar = new List<Note> {
             Note.C, Note.C, Note.G, Note.G,
             Note.A, Note.A, Note.G,
-            Note.F, Note.F, Note.E, Note.E,
-            Note.D, Note.D, Note.C
+            
         };
         songs.Add(littlestar);
 
@@ -53,7 +52,8 @@ public class SongManager : MonoBehaviour {
     }
 
     public void SelectSong(int index) {
-        if (index >= 0 && index < this.songs.Count) {
+        if (index >= 0 && index < this.songs.Count && index != ongoingSong) {
+            Debug.Log($"Select song: {index}" );
             this.ongoingSong = index;
             this.noteIndex = 0;
         }
@@ -67,8 +67,10 @@ public class SongManager : MonoBehaviour {
             if (song[noteIndex] == note) {
                 // correct
                 noteIndex++;
+                Debug.Log("progress");
                 if (noteIndex >= song.Count) {
                     // song completed
+                    Debug.Log("Complete!");
                     ongoingSong = -1;
                     return true;
                 }
@@ -81,5 +83,20 @@ public class SongManager : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update() { }
+    void Update() {
+        var selectSong = -1;
+        if (Input.GetKeyDown(KeyCode.Alpha1)) {
+            selectSong = 1;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2)) {
+            selectSong = 2;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3)) {
+            selectSong = 3;
+        }
+
+        if (selectSong != -1) {
+            this.SelectSong(selectSong - 1);
+        }
+    }
 }
