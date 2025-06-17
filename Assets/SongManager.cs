@@ -15,8 +15,12 @@ public class SongManager : MonoBehaviour {
     private int ongoingSong;
     private int noteIndex;
 
+    public static SongManager instance;
+
     // Start is called before the first frame update
     void Start() {
+        SongManager.instance = this;
+
         songs = new List<List<Note>>();
 
         var littlestar = new List<Note> {
@@ -47,7 +51,7 @@ public class SongManager : MonoBehaviour {
 
         ongoingSong = -1;
     }
-    
+
     void SelectSong(int index) {
         if (index >= 0 && index < this.songs.Count) {
             this.ongoingSong = index;
