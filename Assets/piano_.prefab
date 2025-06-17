@@ -1,58 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2157620132158082924
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1475640816935184870}
-  - component: {fileID: 3660791839530752445}
-  m_Layer: 0
-  m_Name: FollowVisual
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1475640816935184870
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2157620132158082924}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 885502216089893612}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &3660791839530752445
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2157620132158082924}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.03, y: 0.02, z: 0.03}
-  m_Center: {x: 9.313226e-10, y: -0.000000007450581, z: 0}
 --- !u!1001 &8604558454753741268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -123,17 +70,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -351166689935248584, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
-      insertIndex: 0
-      addedObject: {fileID: 1475640816935184870}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6584967507076809797, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 803768624392387847}
-    - targetCorrespondingSourceObject: {fileID: 5402099891862003945, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4845838265429962035}
     - targetCorrespondingSourceObject: {fileID: 5402099891862003945, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7400289911563715676}
@@ -149,6 +90,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5402099891862003945, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 116116598955757550}
+    - targetCorrespondingSourceObject: {fileID: 5402099891862003945, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1307765036299426408}
+    - targetCorrespondingSourceObject: {fileID: 6926507899003205138, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2045211396141377738}
     - targetCorrespondingSourceObject: {fileID: -828186994718779942, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4325502327974101191}
@@ -163,10 +110,10 @@ PrefabInstance:
       addedObject: {fileID: 8380050988459029842}
     - targetCorrespondingSourceObject: {fileID: -828186994718779942, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5391590354979644772}
+      addedObject: {fileID: 929970799671591330}
     - targetCorrespondingSourceObject: {fileID: -828186994718779942, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 929970799671591330}
+      addedObject: {fileID: 1538459193488971764}
     - targetCorrespondingSourceObject: {fileID: 1226579959780508786, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2518434812212709580}
@@ -184,10 +131,10 @@ PrefabInstance:
       addedObject: {fileID: 7346246493721902198}
     - targetCorrespondingSourceObject: {fileID: 7885072677816216542, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4533643796036810268}
+      addedObject: {fileID: 8954060087159215117}
     - targetCorrespondingSourceObject: {fileID: 7885072677816216542, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8954060087159215117}
+      addedObject: {fileID: 7559381453774058815}
     - targetCorrespondingSourceObject: {fileID: 5878217213825947767, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5321249780209019664}
@@ -205,10 +152,10 @@ PrefabInstance:
       addedObject: {fileID: 6670615421797698034}
     - targetCorrespondingSourceObject: {fileID: 2557158387946692690, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3146197255233706232}
+      addedObject: {fileID: 2767992089602509991}
     - targetCorrespondingSourceObject: {fileID: 2557158387946692690, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2767992089602509991}
+      addedObject: {fileID: 7023869468868550960}
     - targetCorrespondingSourceObject: {fileID: -8072511668979882302, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4334728616936577274}
@@ -226,10 +173,10 @@ PrefabInstance:
       addedObject: {fileID: 8574965570931321165}
     - targetCorrespondingSourceObject: {fileID: -4590238995861147375, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6281020752722787972}
+      addedObject: {fileID: 3754397042002139944}
     - targetCorrespondingSourceObject: {fileID: -4590238995861147375, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3754397042002139944}
+      addedObject: {fileID: 7666372733320933624}
     - targetCorrespondingSourceObject: {fileID: -6856344432746703107, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7719834042013534631}
@@ -247,10 +194,10 @@ PrefabInstance:
       addedObject: {fileID: 8241457414031255593}
     - targetCorrespondingSourceObject: {fileID: -7371260595745327118, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2170408851666845205}
+      addedObject: {fileID: 6691786745895734864}
     - targetCorrespondingSourceObject: {fileID: -7371260595745327118, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6691786745895734864}
+      addedObject: {fileID: 2226403042721098126}
     - targetCorrespondingSourceObject: {fileID: 5756220025955203482, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1845634193542722837}
@@ -268,10 +215,10 @@ PrefabInstance:
       addedObject: {fileID: 1225437819985236869}
     - targetCorrespondingSourceObject: {fileID: -6677479634956035154, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 531865669228215534}
+      addedObject: {fileID: 6518509040041688929}
     - targetCorrespondingSourceObject: {fileID: -6677479634956035154, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6518509040041688929}
+      addedObject: {fileID: 4507981072042396970}
     - targetCorrespondingSourceObject: {fileID: -8968781449338006201, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6187961717926256834}
@@ -332,8 +279,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5391590354979644772}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 1538459193488971764}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Push
         m_Mode: 1
         m_Arguments:
@@ -359,8 +306,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5391590354979644772}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 1538459193488971764}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Release
         m_Mode: 1
         m_Arguments:
@@ -480,22 +427,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5391590354979644772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 281536564740103182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3455063968f6ef34984014e1fd9be864, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 8380050988459029842}
-  controller: {fileID: 803768624392387847}
-  renderer: {fileID: 8536332828536127003}
-  key_id: 2
 --- !u!82 &929970799671591330
 AudioSource:
   m_ObjectHideFlags: 0
@@ -592,6 +523,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1538459193488971764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281536564740103182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362f1f36f0cb24914b52276d12ace097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 8380050988459029842}
+  controller: {fileID: 803768624392387847}
+  renderer: {fileID: 8536332828536127003}
+  key_id: 2
+  pressDistance: 0.01
 --- !u!23 &529869341114787330 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -1138301260405264426, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
@@ -602,6 +550,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -351166689935248584, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
   m_PrefabInstance: {fileID: 8604558454753741268}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1690660133256544198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6926507899003205138, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
+  m_PrefabInstance: {fileID: 8604558454753741268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2045211396141377738
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690660133256544198}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.03, y: 0.02, z: 0.03}
+  m_Center: {x: 9.313226e-10, y: -0.000000007450581, z: 0}
 --- !u!1 &1874886685275316746 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7885072677816216542, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
@@ -658,8 +632,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4533643796036810268}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 7559381453774058815}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Push
         m_Mode: 1
         m_Arguments:
@@ -685,8 +659,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4533643796036810268}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 7559381453774058815}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Release
         m_Mode: 1
         m_Arguments:
@@ -806,22 +780,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4533643796036810268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874886685275316746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3455063968f6ef34984014e1fd9be864, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 7346246493721902198}
-  controller: {fileID: 803768624392387847}
-  renderer: {fileID: 9025219240722081075}
-  key_id: 3
 --- !u!82 &8954060087159215117
 AudioSource:
   m_ObjectHideFlags: 0
@@ -918,6 +876,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7559381453774058815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874886685275316746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362f1f36f0cb24914b52276d12ace097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 7346246493721902198}
+  controller: {fileID: 803768624392387847}
+  renderer: {fileID: 9025219240722081075}
+  key_id: 3
+  pressDistance: 0.01
 --- !u!23 &2030022022697466165 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 7729758149786497249, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
@@ -1038,8 +1013,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6281020752722787972}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 7666372733320933624}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Push
         m_Mode: 1
         m_Arguments:
@@ -1065,8 +1040,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6281020752722787972}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 7666372733320933624}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Release
         m_Mode: 1
         m_Arguments:
@@ -1186,22 +1161,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6281020752722787972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3973786375033108677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3455063968f6ef34984014e1fd9be864, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 8574965570931321165}
-  controller: {fileID: 803768624392387847}
-  renderer: {fileID: 2030022022697466165}
-  key_id: 5
 --- !u!82 &3754397042002139944
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1298,6 +1257,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7666372733320933624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3973786375033108677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362f1f36f0cb24914b52276d12ace097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 8574965570931321165}
+  controller: {fileID: 803768624392387847}
+  renderer: {fileID: 2030022022697466165}
+  key_id: 5
+  pressDistance: 0.01
 --- !u!1 &4074556784690524238 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5756220025955203482, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
@@ -1334,22 +1310,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5402099891862003945, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
   m_PrefabInstance: {fileID: 8604558454753741268}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4845838265429962035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4436491388408965437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3455063968f6ef34984014e1fd9be864, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1039757933372551234}
-  controller: {fileID: 803768624392387847}
-  renderer: {fileID: 8954440163629220323}
-  key_id: 1
 --- !u!82 &7400289911563715676
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1459,7 +1419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Interactable: {fileID: 116116598955757550}
-  m_PokeCollider: {fileID: 3660791839530752445}
+  m_PokeCollider: {fileID: 2045211396141377738}
   m_PokeConfiguration:
     m_UseConstant: 1
     m_ConstantValue:
@@ -1480,12 +1440,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07b3638c2f5db5b479ff24c2859713d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PokeFollowTransform: {fileID: 8798832312204387872}
+  m_PokeFollowTransform: {fileID: 885502216089893612}
   m_SmoothingSpeed: 16
-  m_ReturnToInitialPosition: 0
+  m_ReturnToInitialPosition: 1
   m_ApplyIfChildIsTarget: 1
   m_ClampToMaxDistance: 1
-  m_MaxDistance: 0.2
+  m_MaxDistance: 0.05
 --- !u!95 &1039757933372551234
 Animator:
   serializedVersion: 5
@@ -1558,8 +1518,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4845838265429962035}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 1307765036299426408}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Push
         m_Mode: 1
         m_Arguments:
@@ -1585,8 +1545,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4845838265429962035}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 1307765036299426408}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Release
         m_Mode: 1
         m_Arguments:
@@ -1645,6 +1605,23 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1307765036299426408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4436491388408965437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362f1f36f0cb24914b52276d12ace097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1039757933372551234}
+  controller: {fileID: 803768624392387847}
+  renderer: {fileID: 8954440163629220323}
+  key_id: 1
+  pressDistance: 0.01
 --- !u!4 &4684797690718026336 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -5302365143110306892, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
@@ -1716,8 +1693,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3146197255233706232}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 7023869468868550960}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Push
         m_Mode: 1
         m_Arguments:
@@ -1743,8 +1720,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3146197255233706232}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 7023869468868550960}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Release
         m_Mode: 1
         m_Arguments:
@@ -1864,22 +1841,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3146197255233706232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6058839385893726598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3455063968f6ef34984014e1fd9be864, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 6670615421797698034}
-  controller: {fileID: 803768624392387847}
-  renderer: {fileID: 4343464413496299945}
-  key_id: 4
 --- !u!82 &2767992089602509991
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1976,6 +1937,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7023869468868550960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6058839385893726598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362f1f36f0cb24914b52276d12ace097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 6670615421797698034}
+  controller: {fileID: 803768624392387847}
+  renderer: {fileID: 4343464413496299945}
+  key_id: 4
+  pressDistance: 0.01
 --- !u!1 &6070108984803857018 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6677479634956035154, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
@@ -2032,8 +2010,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 531865669228215534}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 4507981072042396970}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Push
         m_Mode: 1
         m_Arguments:
@@ -2059,8 +2037,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 531865669228215534}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 4507981072042396970}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Release
         m_Mode: 1
         m_Arguments:
@@ -2180,22 +2158,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &531865669228215534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6070108984803857018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3455063968f6ef34984014e1fd9be864, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1225437819985236869}
-  controller: {fileID: 803768624392387847}
-  renderer: {fileID: 5327895105886779907}
-  key_id: 0
 --- !u!82 &6518509040041688929
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2292,6 +2254,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4507981072042396970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6070108984803857018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362f1f36f0cb24914b52276d12ace097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1225437819985236869}
+  controller: {fileID: 803768624392387847}
+  renderer: {fileID: 5327895105886779907}
+  key_id: 0
+  pressDistance: 0.01
 --- !u!1 &6318786964204658473 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6856344432746703107, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
@@ -2405,8 +2384,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2170408851666845205}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 2226403042721098126}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Push
         m_Mode: 1
         m_Arguments:
@@ -2432,8 +2411,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2170408851666845205}
-        m_TargetAssemblyTypeName: PianoKey, Assembly-CSharp
+      - m_Target: {fileID: 2226403042721098126}
+        m_TargetAssemblyTypeName: PianoKey2, Assembly-CSharp
         m_MethodName: Release
         m_Mode: 1
         m_Arguments:
@@ -2553,22 +2532,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2170408851666845205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7988697279645990438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3455063968f6ef34984014e1fd9be864, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 8241457414031255593}
-  controller: {fileID: 803768624392387847}
-  renderer: {fileID: 529869341114787330}
-  key_id: 6
 --- !u!82 &6691786745895734864
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2665,6 +2628,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2226403042721098126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7988697279645990438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362f1f36f0cb24914b52276d12ace097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 8241457414031255593}
+  controller: {fileID: 803768624392387847}
+  renderer: {fileID: 529869341114787330}
+  key_id: 6
+  pressDistance: 0.01
 --- !u!1 &8422281717145279635 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8968781449338006201, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
@@ -2722,11 +2702,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.03}
   m_Center: {x: 9.313226e-10, y: 0.0000000018626451, z: 0.000000014901161}
---- !u!4 &8798832312204387872 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 968893004113096692, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}
-  m_PrefabInstance: {fileID: 8604558454753741268}
-  m_PrefabAsset: {fileID: 0}
 --- !u!23 &8954440163629220323 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -8418063668554364873, guid: f843dbf711ad14c80aa39e8a4b2bc1d9, type: 3}

@@ -641,43 +641,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8611133456809582520, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 885502216089893612, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 755006083}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
---- !u!1 &755006082
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 755006083}
-  m_Layer: 0
-  m_Name: FollowVisual
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &755006083
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755006082}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1579722683}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &973509383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,11 +1015,6 @@ MeshFilter:
 Camera:
   m_CorrespondingSourceObject: {fileID: 9014170783809206330, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
   m_PrefabInstance: {fileID: 1342166925}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1579722683 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 885502216089893612, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
-  m_PrefabInstance: {fileID: 504468045}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1637891158
 GameObject:
