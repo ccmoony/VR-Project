@@ -11,6 +11,10 @@ enum Note {
 
 public class SongManager : MonoBehaviour {
     private List<List<Note>> songs;
+
+    private int ongoingSong;
+    private int noteIndex;
+
     // Start is called before the first frame update
     void Start() {
         songs = new List<List<Note>>();
@@ -40,6 +44,35 @@ public class SongManager : MonoBehaviour {
         songs.Add(odeToJoy);
 
         Debug.Log($"Loaded {songs.Count} songs");
+
+        ongoingSong = -1;
+    }
+    
+    void SelectSong(int index) {
+        if (index >= 0 && index < this.songs.Count) {
+            this.ongoingSong = index;
+            this.noteIndex = 0;
+        }
+    }
+
+    bool PlayNote(Note note) {
+        if (ongoingSong != -1) {
+            // if there is an ongoing song
+            var song = this.songs[ongoingSong];
+            if (song[noteIndex] == note) {
+                // correct
+                noteIndex++;
+                if (noteIndex >= song.Count) {
+                    // song completed
+                    ongoingSong = -1;
+                    return true;
+                }
+            } else {
+                // wrong, reset index
+                noteIndex = 0;
+            }
+        }
+        return false;
     }
 
     // Update is called once per frame
