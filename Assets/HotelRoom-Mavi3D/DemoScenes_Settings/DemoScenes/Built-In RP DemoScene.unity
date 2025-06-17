@@ -422,6 +422,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2899997629017613921, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
+      propertyPath: m_Name
+      value: Esharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4714207169143411068, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
+      propertyPath: m_Name
+      value: Dsharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6604993637936264468, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
+      propertyPath: m_Name
+      value: Csharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7813742777024299894, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
+      propertyPath: m_Name
+      value: Fsharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8134399426104077887, guid: 961024b9a9efd4db6a310b7bfaab9d60, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
