@@ -32,9 +32,10 @@ public class SongManager : MonoBehaviour
         songs = new List<List<Note>>();
 
         var littlestar = new List<Note> {
-            Note.C, Note.C, Note.G, Note.G,
-            Note.A, Note.A, Note.G,
-
+            Note.C, Note.C, Note.G, Note.G,  
+            Note.A, Note.A, Note.G,  
+            Note.F, Note.F, Note.E, Note.E,  
+            Note.D, Note.D, Note.C  
         };
         songs.Add(littlestar);
 
@@ -47,12 +48,31 @@ public class SongManager : MonoBehaviour
         songs.Add(maryHadALittleLamb);
 
         var odeToJoy = new List<Note> {
-            Note.E, Note.E, Note.F, Note.G,
-            Note.G, Note.F, Note.E, Note.D,
-            Note.C, Note.C, Note.D, Note.E,
-            Note.E, Note.D, Note.D
+            Note.E, Note.E, Note.F, Note.G,  
+            Note.G, Note.F, Note.E, Note.D,  
+            Note.C, Note.C, Note.D, Note.E,  
+            Note.D, Note.D, Note.E, Note.D, Note.C  
         };
         songs.Add(odeToJoy);
+
+        var twoTigers = new List<Note> {
+            Note.C, Note.D, Note.E, Note.C,  
+            Note.C, Note.D, Note.E, Note.C,  
+            Note.E, Note.F, Note.G,  
+            Note.E, Note.F, Note.G  
+        };
+        songs.Add(twoTigers);
+
+        var happyBirthday = new List<Note> {
+            Note.C, Note.C, Note.D, Note.C, Note.F, Note.E,
+            
+            Note.C, Note.C, Note.D, Note.C, Note.G, Note.F,
+            
+            Note.C, Note.C, Note.C, Note.A, Note.F, Note.E, Note.D,
+            
+            Note.A, Note.A, Note.F, Note.G, Note.F
+        };
+        songs.Add(happyBirthday);
 
         Debug.Log($"Loaded {songs.Count} songs");
 
@@ -134,6 +154,14 @@ public class SongManager : MonoBehaviour
         {
             selectSong = 3;
         }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            selectSong = 4;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            selectSong = 5;
+        }
 
         if (selectSong != -1)
         {
@@ -148,15 +176,39 @@ public class SongManager : MonoBehaviour
         for (int i = 0; i <= song.Count; i++)
         {
             if (i >= 1)
+            {
                 RevertTargetColor(song[i - 1]);
-            yield return new WaitForSeconds(0.2f);
+                yield return new WaitForSeconds(0.2f);
+            }
+            
             if (i < song.Count)
+            {
                 SetTargetColor(song[i], Color.green);
-            yield return new WaitForSeconds(0.2f);
+                PlayNoteSound(song[i]);  
+                yield return new WaitForSeconds(0.4f);  
+            }
+            else
+            {
+                yield return new WaitForSeconds(0.2f);
+            }
         }
         noteIndex = 0;
         SetTargetColor(songs[ongoingSong][noteIndex]);
         enableKey = true;
+    }
+
+    private void PlayNoteSound(Note note)
+    {
+        PianoKey key;
+        if (pianoKeys.TryGetValue(note, out key))
+        {
+            Debug.Log("Playing note: " + note);
+            AudioSource audioSource = key.GetComponent<AudioSource>();
+            if (audioSource != null && audioSource.clip != null)
+            {
+                audioSource.Play();
+            }
+        }
     }
 
     private void AllRevert()
