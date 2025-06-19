@@ -6,23 +6,32 @@ using UnityEngine;
 public class PianoKey : PushKey
 {
     [SerializeField]
-    KeySequenceControl controller;
-    
+    SongManager songManager;
+
+    [SerializeField]
+    public Note note;
+
     public Renderer renderer;
 
-    public int key_id;
-    public void Start(){
-        controller = GetComponentInParent<KeySequenceControl>();
-
+    // public int key_id;
+    public void Start()
+    {
+        songManager = GetComponentInParent<SongManager>();
+        // initialLocalPosition = transform.localPosition;
     }
-    public void Push(){
+    public void Push()
+    {
         base.Push();
-        controller.Push(key_id);
+        // controller.Push(key_id);
+        // transform.localPosition = initialLocalPosition + new Vector3(0, 0, -pressDistance);
 
+        songManager.PlayNote(this.note);
     }
 
-    public void Release(){
+    public void Release()
+    {
         base.Release();
-
+        // transform.localPosition = initialLocalPosition;
     }
 }
+

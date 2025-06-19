@@ -537,6 +537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 8380050988459029842}
   controller: {fileID: 803768624392387847}
+  note: 0
   renderer: {fileID: 8536332828536127003}
   key_id: 2
   pressDistance: 0.01
@@ -890,6 +891,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 7346246493721902198}
   controller: {fileID: 803768624392387847}
+  note: 0
   renderer: {fileID: 9025219240722081075}
   key_id: 3
   pressDistance: 0.01
@@ -1271,6 +1273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 8574965570931321165}
   controller: {fileID: 803768624392387847}
+  note: 0
   renderer: {fileID: 2030022022697466165}
   key_id: 5
   pressDistance: 0.01
@@ -1456,7 +1459,7 @@ Animator:
   m_GameObject: {fileID: 4436491388408965437}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ab0e5c4946cda1e4e8d30151addd5cfa, type: 2}
+  m_Controller: {fileID: 9100000, guid: d4c841309c6412a4296e657eda752251, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1619,6 +1622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1039757933372551234}
   controller: {fileID: 803768624392387847}
+  note: 0
   renderer: {fileID: 8954440163629220323}
   key_id: 1
   pressDistance: 0.01
@@ -1951,6 +1955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 6670615421797698034}
   controller: {fileID: 803768624392387847}
+  note: 0
   renderer: {fileID: 4343464413496299945}
   key_id: 4
   pressDistance: 0.01
@@ -2268,6 +2273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1225437819985236869}
   controller: {fileID: 803768624392387847}
+  note: 0
   renderer: {fileID: 5327895105886779907}
   key_id: 0
   pressDistance: 0.01
@@ -2642,6 +2648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 8241457414031255593}
   controller: {fileID: 803768624392387847}
+  note: 0
   renderer: {fileID: 529869341114787330}
   key_id: 6
   pressDistance: 0.01
